@@ -98,3 +98,15 @@ body {
   animation: blink-eyes 3s infinite linear;
 
 }
+.candle1__mouth{
+  position: absolute;
+  left: 40%;
+  top: 20px;
+  width: 0px;
+  height: 0px;
+  border-radius: 20%;
+  background: #673C63;
+  transform: translate(-50%, -50%);
+  animation: uff 3s infinite linear;
+
+}
