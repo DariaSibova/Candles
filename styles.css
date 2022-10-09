@@ -16,7 +16,7 @@ body {
   top: 50%;
   width: 350px;
   height: 5px;
-  background: #673663;
+  background: #673C63;
   transform: translate(-50%, -50%);
   box-shadow: 0px 2px 5px;
   z-index: 2;
@@ -30,4 +30,18 @@ body {
   height: 150px;
   transform: translate(-50%, -100%);
   z-index: 1;
+}
+
+.candle1{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 35px;
+  height: 100px;
+  background: #fff;
+  border: 3px solid #673C63;
+  border-bottom: 0px;
+  border-radius: 3px;
+  transform-origin: center right;
+  transform: translate(60%,-25%);
 }
