@@ -147,3 +147,17 @@ body {
   box-shadow: -2px 0px 0px #95c6f2 inset;
   animation: shake-left 3s infinite linear;
 }
+.candle2__eyes-one {
+  position: absolute;
+  left: 30%;
+  top: 50%;
+  width: 5px;
+  height: 5px;
+  display: inline-block;
+  border: 0px solid #673C63;
+  border-radius: 100%;
+  float: left;
+  background: #673C63;
+  transform: translate(-80%, 0%);
+  animation: changeto-lower 3s infinite linear;
+}
