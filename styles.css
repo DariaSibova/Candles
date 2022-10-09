@@ -48,3 +48,13 @@ body {
   animation: expand-body 3s infinite linear;
 }
 
+.candle1__stick, .candle2__stick{
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  width: 3px;
+  height: 15px;
+  background: #673C63;
+  border-radius: 8px;
+  transform: translate(-50%, -100%);
+}
