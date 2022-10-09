@@ -64,3 +64,13 @@ body {
   transform-origin: bottom center;
   animation: stick-animation 3s infinite linear;
 }
+
+.candle1__eyes, .candle2__eyes {
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  width: 35px;
+  height: 30px;
+  transform: translate(-50%, 0%);
+}
+
