@@ -3,14 +3,14 @@ body {
   animation: change-background 3s infinite linear;
 }
 
-.wrapper{
+.wrapper {
   position: absolute;
   left: 50%;
   top: 70%;
-  transform: scale(1.5,1.5) translate(-50%,-50%);
+  transform: scale(1.5, 1.5) translate(-50%, -50%);
 }
 
-.floor{
+.floor {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -18,11 +18,11 @@ body {
   height: 5px;
   background: #673C63;
   transform: translate(-50%, -50%);
-  box-shadow: 0px 2px 5px;
+  box-shadow: 0px 2px 5px #111;
   z-index: 2;
 }
 
-.candles{
+.candles {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -32,7 +32,7 @@ body {
   z-index: 1;
 }
 
-.candle1{
+.candle1 {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -43,12 +43,12 @@ body {
   border-bottom: 0px;
   border-radius: 3px;
   transform-origin: center right;
-  transform: translate(60%,-25%);
+  transform: translate(60%, -25%);
   box-shadow: -2px 0px 0px #95c6f2 inset;
   animation: expand-body 3s infinite linear;
 }
 
-.candle1__stick, .candle2__stick{
+.candle1__stick, .candle2__stick {
   position: absolute;
   left: 50%;
   top: 0%;
@@ -59,7 +59,7 @@ body {
   transform: translate(-50%, -100%);
 }
 
-.candle2__stick{
+.candle2__stick {
   height: 12px;
   transform-origin: bottom center;
   animation: stick-animation 3s infinite linear;
@@ -74,7 +74,7 @@ body {
   transform: translate(-50%, 0%);
 }
 
-.candle1__eyes-one{
+.candle1__eyes-one {
   position: absolute;
   left: 30%;
   top: 20%;
@@ -82,6 +82,19 @@ body {
   height: 5px;
   border-radius: 100%;
   background: #673C63;
-  transform: translate(-70%,0%);
+  transform: translate(-70%, 0%);
   animation: blink-eyes 3s infinite linear;
+}
+
+.candle1__eyes-two{
+  position: absolute;
+  left: 70%;
+  top: 20px;
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  background: #673C63;
+  transform: translate(-70%, 0%);
+  animation: blink-eyes 3s infinite linear;
+
 }
