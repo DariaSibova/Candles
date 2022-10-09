@@ -58,3 +58,9 @@ body {
   border-radius: 8px;
   transform: translate(-50%, -100%);
 }
+
+.candle2__stick{
+  height: 12px;
+  transform-origin: bottom center;
+  animation: stick-animation 3s infinite linear;
+}
