@@ -44,4 +44,7 @@ body {
   border-radius: 3px;
   transform-origin: center right;
   transform: translate(60%,-25%);
+  box-shadow: -2px 0px 0px #95c6f2 inset;
+  animation: expand-body 3s infinite linear;
 }
+
